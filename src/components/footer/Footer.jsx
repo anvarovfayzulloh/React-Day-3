@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="container">
           <div className="footer__wrapper">
             <div className='footer__first-line' >
-              <img src={logo} alt="" />
+              <img style={{cursor: "pointer"}} src={logo} alt="" />
               <ul className='footer__list' >
                 <li>
                   <a href="#">About</a>

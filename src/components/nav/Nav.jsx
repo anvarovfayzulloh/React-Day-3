@@ -12,7 +12,7 @@ const Nav = () => {
         <nav>
             <div className="container">
                 <div className="nav__wrapper">
-                  <img src={logo} alt="" />
+                  <img style={{cursor: "pointer"}} src={logo} alt="" />
                   <ul className='nav__list' >
                     <li>
                       <a href="#">Home</a>

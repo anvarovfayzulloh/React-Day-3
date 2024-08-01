@@ -13,7 +13,7 @@ const Customer = ({ customers }) => {
               What our customer
               say about this
             </h3>
-            <img src={sliders} alt="" />
+            <img style={{cursor: "pointer"}} src={sliders} alt="" />
           </div>
           <div className='customers__commits' >
             {

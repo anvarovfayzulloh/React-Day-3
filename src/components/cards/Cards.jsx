@@ -4,11 +4,13 @@ import rating__star from "../../assets/images/rating__star.svg"
 import deliver from "../../assets/images/deliver.svg"
 import clock from "../../assets/images/clock.svg"
 import line_up from "../../assets/images/line_up.svg"
+import favorite from "../../assets/images/favorite.svg"
 
 const Cards = ({product}) => {
   return (
     <div className='menu__card' >
       <img src={product.image} alt="" />
+      <img className='favorite__btn' src={favorite} alt="" />
       <div className='menu__card-content' >
         <div className='menu__content-header' >
           <p className='menu__content-title' >{product.title}</p>

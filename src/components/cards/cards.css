@@ -1,6 +1,7 @@
 .menu__card{
     box-shadow: 5px 5px 20px 0px #24141514;
     border-radius: 20px;
+    position: relative;
 }
 .menu__card-content{
     padding: 16px;
@@ -56,4 +57,11 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 20.16px;
+}
+.favorite__btn{
+    position: absolute;
+    z-index: 3;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
 }
